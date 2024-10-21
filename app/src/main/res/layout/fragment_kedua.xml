@@ -1,0 +1,40 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tv_produk_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="Produk"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/img_display"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:paddingBottom="16dp" />
+        <TextView
+            android:id="@+id/tv_produk_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harga: Mulai dari Rp 16.999.000,Chipset: A16 Bionic,Layar: 6.1, Super Retina XDR,Kamera: 48MP + 12MP ultrawide,Memori: 128GB, 256GB, 512GB, hingga 1TB,Konektivitas: 5G, Wi-Fi 6E,Baterai: Pengisian cepat, kompatibel MagSafe,Lainnya: IP68 tahan air, Face ID, beberapa pilihan warna."
+            android:textSize="16sp"
+            android:textColor="#555555" />
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            android:backgroundTint="#FF5722"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+</ScrollView>
